@@ -12,10 +12,14 @@ public class DemoController {
 	{
 		return("Hi");
 	}
+
 	@RequestMapping(value="/Hai")
 	public String method()
 	{
 		return("HI Hi");
 	}
+
+	//System.out.println("Hi Hi");
+
 
 }
